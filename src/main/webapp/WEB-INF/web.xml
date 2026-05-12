@@ -9,13 +9,13 @@
     <display-name>Spring MVC App</display-name>
 
     <servlet>
-        <servlet-name>dad-frontcontroller-dispatcher</servlet-name>
+        <servlet-name>dad-frontcontroller</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>dad-frontcontroller-dispatcher</servlet-name>
+        <servlet-name>dad-frontcontroller</servlet-name>
         <url-pattern>/home.com/*</url-pattern>
     </servlet-mapping>
 
