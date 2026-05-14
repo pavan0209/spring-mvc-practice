@@ -26,6 +26,7 @@
         p {
             color: #555;
             font-size: 18px;
+            text-align: left;
         }
         button {
             padding: 10px 20px;
@@ -42,8 +43,10 @@
 </head>
 <body>
 <div class="container">
-    <h1>Prabhu's Cafe 🚀</h1>
+    <h1 align="center">🧋 ${cafeNameValue} 🧋</h1>
     <hr>
+    <p>Owner Name : ${nameValue}</p>
+    <p>Cafe Location : ${locationValue}</p>
     <br>
     <button>Order Now</button>
 </div>
